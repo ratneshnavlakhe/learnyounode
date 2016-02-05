@@ -2,7 +2,7 @@ var http = require('http');
 var urlmod =  require('url');
 var urls = process.argv;
 
-urls.forEach(function (url) {
+urls.forEach(function (url) { 
 var string = '';
 	http.get(url, function (res) {
 		res.setEncoding('utf8');
